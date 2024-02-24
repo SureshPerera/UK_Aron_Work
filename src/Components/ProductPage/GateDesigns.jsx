@@ -30,16 +30,70 @@ export default function GateDesigns() {
         <Container>
       <Row>
         <Col xs={6} md={4}>
-          {/* <Image src={image} rounded /> */}
+          <img src='./Image01/GateImg/gate062-1.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-          {/* <Image src={image}roundedCircle /> */}
+        <img src='./Image01/GateImg/gate063.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-          {/* <Image src={image} thumbnail /> */}
-          {/* <Image src='./public/Image01/gate062-1.jpg'/> */}
-          <img src='../public/Image01/gate062-1.jpg'/>
+        <img src='./Image01/GateImg/gate064.jpg'/>
         </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate068.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate069.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate070.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate072.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate073.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate074.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate075.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate076.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate077.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate078.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate080.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate081.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate082.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate083.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate083.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate084.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate20230305-1.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gate20230305-2.jpg'/>
+        </Col>
+
+
       </Row>
     </Container>
         </span>
