@@ -14,7 +14,7 @@ export default function LorryBodyBulders() {
           <Carousel.Item>
                  <img src='./Image01/Lory body/g-15.jpg' style={{width:"100%",height:'480px'}}/>
            <Carousel.Caption style={{color:'orange',width:'400px',height:'200px',backgroundColor:'white'}}>
-              <h3 style={{fontSize:'50px'}}><b>LORRY BODY BUILDERS</b>IN SRILANKA</h3>
+              <h3 style={{fontSize:'50px'}}><b>LORRY BODY BUILDERS</b> IN SRILANKA</h3>
               <p><b>UK</b> IRON WORK 0771293002</p>
             </Carousel.Caption>
             </Carousel.Item> 

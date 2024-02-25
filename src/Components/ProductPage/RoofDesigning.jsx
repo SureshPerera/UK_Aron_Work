@@ -12,8 +12,8 @@ export default function RoofDesigning() {
       <Carousel>
           <Carousel.Item>
                  <img src='./Image01/Roof/i-roof-gemlight-hotel.jpg' style={{width:"100%",height:'480px'}}/>
-           <Carousel.Caption style={{color:'orange',width:'400px',height:'200px',backgroundColor:'white'}}>
-              <h3 style={{fontSize:'50px'}}><b>ROOF</b>DESIGNS</h3>
+           <Carousel.Caption style={{color:'orange',width:'400px',height:'150px',backgroundColor:'white'}}>
+              <h3 style={{fontSize:'50px'}}><b>ROOF</b> DESIGNS</h3>
               <p><b>UK</b> IRON WORK 0771293002</p>
             </Carousel.Caption>
             </Carousel.Item> 
