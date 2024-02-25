@@ -10,7 +10,7 @@ export default function GateDesigns() {
     <div>
       <Carousel>
           <Carousel.Item>
-                 <Image style={{width:"100%",height:'480px'}}src={ironwork2}/>
+                 <img style={{width:"100%",height:'480px'}}src='./Image01/GateImg/ancient-architectural-design-architecture-asian-architecture.jpg'/>
            <Carousel.Caption style={{color:'orange',width:'400px',height:'200px',backgroundColor:'white'}}>
               <h3 style={{fontSize:'50px'}}><b>GATE DESIGNS</b> SRI LANKA</h3>
               <p><b>UK</b> IRON WORK 0771293002</p>
@@ -87,12 +87,52 @@ export default function GateDesigns() {
         <img src='./Image01/GateImg/gate084.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate20230305-1.jpg'/>
+        <img src='./Image01/GateImg/gatev202305-1.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate20230305-2.jpg'/>
+        <img src='./Image01/GateImg/gatev202305-2.jpg'/>
         </Col>
-
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-3.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-4.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-5.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-6.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-7.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-8.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-9.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-10.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-11.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-12.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-13.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-14.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/GateImg/gatev202305-15.jpg'/>
+        </Col>
+       
+        
 
       </Row>
     </Container>

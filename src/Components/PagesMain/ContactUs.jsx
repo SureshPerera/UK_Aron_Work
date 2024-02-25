@@ -14,7 +14,7 @@ export default function ContactUs() {
       
       <Carousel>
           <Carousel.Item>
-                 <Image style={{width:"100%",height:'480px'}}src={Images}/>
+                 <img style={{width:"100%",height:'480px'}}src='./Image01/ContactUs/desktop-wallpaper-contact-contact-us.jpg'/>
            <Carousel.Caption style={{color:'orange',width:'400px',height:'150px',backgroundColor:'white'}}>
               <h3 style={{fontSize:'50px'}}><b>CONTACT</b> US</h3>
               <p><b>UK</b> IRON WORK 0771293002</p>

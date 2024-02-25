@@ -3,16 +3,22 @@ import React from 'react'
 // import { Image } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-
+import { Carousel,Image } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
+
 
 export default function LorryBodyBulders() {
   return (
     <div>
-      <h3>
-      <b>LORRY BODY BUILDERS</b> IN SRI LANKA
-      </h3>
-      {/* <Image src={image} fluid/> */}
+      <Carousel>
+          <Carousel.Item>
+                 <img src='./Image01/Lory body/g-15.jpg' style={{width:"100%",height:'480px'}}/>
+           <Carousel.Caption style={{color:'orange',width:'400px',height:'200px',backgroundColor:'white'}}>
+              <h3 style={{fontSize:'50px'}}><b>LORRY BODY BUILDERS</b>IN SRILANKA</h3>
+              <p><b>UK</b> IRON WORK 0771293002</p>
+            </Carousel.Caption>
+            </Carousel.Item> 
+        </Carousel>   
       <p>
       We manufacture different types of truck body suited for every business need.
 <br/>We have garnered the trust of Automobile brands by providing them with quality products and excellent service for every delivery of our new Truck Body design. We build bodies to meet your specifications.

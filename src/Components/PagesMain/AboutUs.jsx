@@ -1,8 +1,7 @@
 import React from 'react';
 import Ratio from 'react-bootstrap/Ratio';
 import Carousel from 'react-bootstrap/Carousel';
-import aboutImg from '../AboutImg.jpg';
-import { Image } from 'react-bootstrap';
+
 
 export default function AboutUs() {
   return (
@@ -10,7 +9,7 @@ export default function AboutUs() {
         
         <Carousel>
           <Carousel.Item>
-                 <Image style={{width:"100%",height:'480px'}}src={aboutImg}/>
+                 <img style={{width:"100%",height:'480px'}}src='./Image01/AboutUs/360_F_128447604_6deYSrg6bgH2F3YaoU0icdhvxNu4ReDN.jpg'/>
            <Carousel.Caption style={{color:'orange',width:'400px',height:'150px',backgroundColor:'white'}}>
               <h3 style={{fontSize:'55px'}}><b>ABOUT</b> US</h3>
               <p><b>UK</b> IRON WORK 0771293002</p>

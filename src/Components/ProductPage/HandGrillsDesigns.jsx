@@ -34,14 +34,63 @@ We are manufacturing all the products using high-grade components and modern tec
         <Container>
       <Row>
         <Col xs={6} md={4}>
-          {/* <Image src={images} rounded /> */}
+         <img src='./Image01/Handgrill/2H2A7913.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-          {/* <Image src={images}roundedCircle /> */}
+        <img src='./Image01/Handgrill/2H2A7915.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-          {/* <Image src={images} thumbnail /> */}
+        <img src='./Image01/Handgrill/2H2A7927.jpg'/>
         </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/2H2A7930.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/2H2A7931.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/balconies007.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/balconies009-2.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/balconies010.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/hgh2023-1.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/hgh2023-2 (1).jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/hgh2023-2.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/hgh2023-3.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/hgh2023-3 (1).jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/hgh2023-4.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/hgh2023-3.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/staircase002.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/staircase009.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/staircase010.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img src='./Image01/Handgrill/staircase012.jpg'/>
+        </Col>
+
       </Row>
     </Container>
         </span>

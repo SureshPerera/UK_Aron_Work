@@ -3,16 +3,21 @@ import React from 'react'
 // import { Image } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-
+import { Carousel,Image } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 
 export default function RoofDesigning() {
   return (
     <div>
-      <h3>
-      <b>ROOF DESIGN</b> IN SRI LANKA
-      </h3>
-      {/* <Image src={image} fluid/> */}
+      <Carousel>
+          <Carousel.Item>
+                 <img src='./Image01/Roof/i-roof-gemlight-hotel.jpg' style={{width:"100%",height:'480px'}}/>
+           <Carousel.Caption style={{color:'orange',width:'400px',height:'200px',backgroundColor:'white'}}>
+              <h3 style={{fontSize:'50px'}}><b>ROOF</b>DESIGNS</h3>
+              <p><b>UK</b> IRON WORK 0771293002</p>
+            </Carousel.Caption>
+            </Carousel.Item> 
+        </Carousel>   
       <p>
       We provide Sri Lanka’s finest Steel Roofing to meet the need of Sri Lankan industrial and domestic steel roofing requirements, We understand the actual need and offers a complete solution from Design, Manufacture, Installation to Completion.
       <br/>We provide cost-effective solutions, Which are Sound, Leak proof & give an attractive look to the Building.
