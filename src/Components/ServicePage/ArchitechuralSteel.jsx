@@ -24,7 +24,7 @@ We’re happy to work with contractors, architects or any other building profess
         <Container>
       <Row>
         <Col xs={6} md={4}>
-          {/* <Image src={image} rounded /> */}
+         <img src='./Image01/Services/Image001jpg'/>
         </Col>
         <Col xs={6} md={4}>
           {/* <Image src={image}roundedCircle /> */}

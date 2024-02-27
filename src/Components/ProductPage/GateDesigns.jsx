@@ -29,107 +29,107 @@ export default function GateDesigns() {
         <span>
         <Container>
       <Row>
-        <Col xs={6} md={4}>
-          <img src='./Image01/GateImg/gate062-1.jpg'/>
+        <Col  xs={6} md={4}>
+          <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px",}} src='./Image01/GateImg/gate062-1.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate063.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate063.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate064.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate064.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate068.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate068.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate069.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate069.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate070.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate070.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate072.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate072.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate073.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate073.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate074.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate074.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate075.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate075.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate076.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate076.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate077.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate077.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate078.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate078.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate080.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate080.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate081.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate081.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate082.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate082.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate083.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate083.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate083.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate083.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gate084.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gate084.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-1.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-1.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-2.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-2.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-3.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-3.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-4.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-4.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-5.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-5.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-6.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-6.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-7.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-7.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-8.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-8.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-9.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-9.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-10.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-10.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-11.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-11.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-12.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-12.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-13.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-13.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-14.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-14.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-        <img src='./Image01/GateImg/gatev202305-15.jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/GateImg/gatev202305-15.jpg'/>
         </Col>
        
         

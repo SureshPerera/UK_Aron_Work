@@ -29,13 +29,22 @@ export default function WindowDesignsInSrilanka() {
         <Container>
       <Row>
         <Col xs={6} md={4}>
-          {/* <Image src={images} rounded /> */}
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Window/windows03.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-          {/* <Image src={images}roundedCircle /> */}
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Window/windows05.jpg'/>
         </Col>
         <Col xs={6} md={4}>
-          {/* <Image src={images} thumbnail /> */}
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Window/windows06.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Window/windows08.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Window/windows09.jpg'/>
+        </Col>
+        <Col xs={6} md={4}>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Window/windows10.jpg'/>
         </Col>
       </Row>
     </Container>

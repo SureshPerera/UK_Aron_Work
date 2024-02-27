@@ -29,7 +29,7 @@ export default function RoofDesigning() {
         <Container>
       <Row>
         <Col xs={6} md={4}>
-          {/* <Image src={image} rounded /> */}
+         <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Roof/roofing001.jpg'/>
         </Col>
         <Col xs={6} md={4}>
           {/* <Image src={image}roundedCircle /> */}
