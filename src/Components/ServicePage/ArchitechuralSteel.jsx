@@ -4,14 +4,20 @@ import React from 'react'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
-import Row from 'react-bootstrap/Row';
+import {Row,Carousel} from 'react-bootstrap';
 
 export default function ArchitechuralSteel() {
   return (
     <div>
-      <h3>
-      <b>ARCHITECTURAL STEEL</b> STRUCTURES
-      </h3>
+      <Carousel>
+          <Carousel.Item>
+                 <img style={{width:"100%",height:'480px'}}src='Image01/Architecter/Image001.jpg'/>
+           <Carousel.Caption style={{color:'orange',width:'400px',height:'250px',backgroundColor:'white'}}>
+              <h3 style={{fontSize:'50px'}}><b>ARCHITECTURAL STEEL </b>STRUCTURES</h3>
+              <p><b>UK</b> IRON WORK 0771293002</p>
+            </Carousel.Caption>
+            </Carousel.Item> 
+        </Carousel>   
       {/* <Image src={image} fluid="true"/> */}
       <p>
       We can help you with everything from advice, proposals, design, development, delivery and final installation. This A to Z solution means that your project can run smoothly.
@@ -24,7 +30,7 @@ We’re happy to work with contractors, architects or any other building profess
         <Container>
       <Row>
         <Col xs={6} md={4}>
-         <img src='./Image01/Services/Image001jpg'/>
+        <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Architecter/Image001.jpg'/>
         </Col>
         <Col xs={6} md={4}>
           {/* <Image src={image}roundedCircle /> */}

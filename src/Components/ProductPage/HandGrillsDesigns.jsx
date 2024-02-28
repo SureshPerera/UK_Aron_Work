@@ -77,7 +77,7 @@ We are manufacturing all the products using high-grade components and modern tec
         </Col>
         <Col xs={6} md={4}>
         <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Handgrill/hgh2023-3.jpg'/>
-        </Col>
+        </Col>  
         <Col xs={6} md={4}>
         <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Handgrill/staircase002.jpg'/>
         </Col>
