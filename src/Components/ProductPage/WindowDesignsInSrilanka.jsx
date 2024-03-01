@@ -21,6 +21,8 @@ export default function WindowDesignsInSrilanka() {
             </Carousel.Caption>
             </Carousel.Item> 
         </Carousel>   
+        <hr/>
+        <Container>
       <p>We are one of the prominent manufacturers of an array of Metal windows. all the windows are manufactured using high-quality raw materials.
       <br/>we are capable of fabricating any type of a window, especially modern window designs. 
       <br/>our professionals are always varied helpful and always happy to talk with you about the idea or design that you have in your mind.
@@ -49,7 +51,7 @@ export default function WindowDesignsInSrilanka() {
       </Row>
     </Container>
         </span>
-
+        </Container>
     </div>
 
   )

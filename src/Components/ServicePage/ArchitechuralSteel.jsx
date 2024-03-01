@@ -11,14 +11,15 @@ export default function ArchitechuralSteel() {
     <div>
       <Carousel>
           <Carousel.Item>
-                 <img style={{width:"100%",height:'480px'}}src='Image01/Architecter/Image001.jpg'/>
+                 <img style={{width:"100%",height:'480px'}}src='Image01/Architecter/background.jpg'/>
            <Carousel.Caption style={{color:'orange',width:'400px',height:'250px',backgroundColor:'white'}}>
               <h3 style={{fontSize:'50px'}}><b>ARCHITECTURAL STEEL </b>STRUCTURES</h3>
               <p><b>UK</b> IRON WORK 0771293002</p>
             </Carousel.Caption>
             </Carousel.Item> 
         </Carousel>   
-      {/* <Image src={image} fluid="true"/> */}
+      <hr/>
+      <Container>
       <p>
       We can help you with everything from advice, proposals, design, development, delivery and final installation. This A to Z solution means that your project can run smoothly.
       <br/>You can leave the technical and logistical aspects of your steel structure safely in our hands.
@@ -41,6 +42,7 @@ We’re happy to work with contractors, architects or any other building profess
       </Row>
     </Container>
     </span>
+    </Container>
     </div>
   )
 }

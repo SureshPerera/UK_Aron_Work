@@ -21,6 +21,8 @@ export default function HandGrillsDesigns() {
             </Carousel.Caption>
             </Carousel.Item> 
         </Carousel>   
+        <hr/>
+        <Container>
       <p>
       We are one of the prominent manufacturers of an array of Metal Railings. These are manufactured using quality raw materials, so our products quality equivalent to international quality standards.
 our professionals are always varied helpful and always happy to talk with you and get your ideas as well. and  We have fabricated several staircases both internal and external and either straight, curved or spiral.
@@ -94,6 +96,7 @@ We are manufacturing all the products using high-grade components and modern tec
       </Row>
     </Container>
         </span>
+        </Container>
     </div>
   )
 }

@@ -3,15 +3,23 @@ import React from 'react'
 // import { Image } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-
+import { Carousel } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 
 export default function BestArcRepair() {
   return (
     <div>
-      <h3>
-      <b>BEST ARC</b> REPAIR SERVICE
-      </h3>
+       <Carousel>
+          <Carousel.Item>
+                 <img style={{width:"100%",height:'480px'}}src='Image01/Repair/background01.webp'/>
+           <Carousel.Caption style={{color:'orange',width:'400px',height:'250px',backgroundColor:'white'}}>
+              <h3 style={{fontSize:'50px'}}><b>BEST ARC REPAIR </b>SERVICE</h3>
+              <p><b>UK</b> IRON WORK 0771293002</p>
+            </Carousel.Caption>
+            </Carousel.Item> 
+        </Carousel>   
+        <hr/>
+        <Container>
       {/* <Image src={image} fluid="true"/> */}
       <p>Usually, all the iron products that we manufacture in our company are using very good raw material, so we do not receive calls for repair those products from our customers
       <br/>But if you have iron made products made with low-quality materials in your home or your working place, you may soon have to find a repair service to fix those items
@@ -33,6 +41,7 @@ export default function BestArcRepair() {
       </Row>
     </Container>
     </span>
+    </Container>
     </div>
   )
 }
