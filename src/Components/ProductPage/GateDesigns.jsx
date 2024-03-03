@@ -8,7 +8,7 @@ import { Carousel, Image, Container } from 'react-bootstrap';
 export default function GateDesigns() {
   return (
     <div>
-      
+      <hr/>
         <Carousel>
             <Carousel.Item>
                    <img style={{width:"100%",height:'480px'}}src='./Image01/GateImg/ancient-architectural-design-architecture-asian-architecture.jpg'/>

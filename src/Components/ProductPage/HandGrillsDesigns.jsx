@@ -11,7 +11,7 @@ import { Carousel,Image } from 'react-bootstrap';
 export default function HandGrillsDesigns() {
   return (
     <div>
-      
+      <hr/>
       <Carousel>
           <Carousel.Item>
                  <Image style={{width:"100%",height:'480px'}}src={ironwork3}/>

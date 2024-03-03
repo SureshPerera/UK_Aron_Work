@@ -12,6 +12,7 @@ export default function WindowDesignsInSrilanka() {
    
   return (
     <div>
+      <hr/>
      <Carousel>
           <Carousel.Item>
                  <img src='./Image01/Window Desing/WF557054191-Windown-Sticker-Glass-29-1030x686.jpg' style={{width:"100%",height:'480px'}}/>

@@ -10,6 +10,7 @@ import Row from 'react-bootstrap/Row';
 export default function LorryBodyBulders() {
   return (
     <div>
+      <hr/>
       <Carousel>
           <Carousel.Item>
                  <img src='./Image01/Lory body/g-15.jpg' style={{width:"100%",height:'480px'}}/>

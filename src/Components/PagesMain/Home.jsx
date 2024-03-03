@@ -14,6 +14,8 @@ import ArchitechuralSteel from '../ServicePage/ArchitechuralSteel';
 import BestArcRepair from '../ServicePage/BestArcRepair';
 import ContactUs from './ContactUs';
 import { Container } from 'react-bootstrap';
+import '../Css/home.css';
+
 export default function Home() {
   return (
     <div>
@@ -23,13 +25,15 @@ export default function Home() {
         <ResponciveImj/>
         <hr/>
         <BestArcIronWokers/>
-        <Container>
         <hr/>
+        <Container>
+        
+        </Container>
         <b>
-        <span className='located'>WE ARE LOCATED IN HIRIPITIYA</span>
+        <div className='located'>WE ARE LOCATED IN HIRIPITIYA</div>
         </b>
         {/* <hr/>
-        <AboutUs/>
+        <AboutUs/>  
         {/* <GateDesigns/> */}
         {/* <HandGrillsDesigns/> */}
         {/* <WindowDesignsInSrilanka/> */}
@@ -46,7 +50,7 @@ export default function Home() {
             </BrowserRouter>
         </span> */}
         {/* <ContactUs/> */}
-      </Container>
+      
 
     </div>
   )

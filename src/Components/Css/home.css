@@ -6,3 +6,41 @@
     text-size-adjust: 80px;
     
 }
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    font-family: "Courier ", monospace ;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a.active{
+    color: red;
+}
+a:hover {
+    color: red;
+}
+
+.located{
+    color:whitesmoke;
+    background-color: #333;
+    border: 3px outset white;
+    background: #333;
+    width: 100%;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    font-size: 30px;
+    height: 60px;
+    font-family: 'Courier new', Courier, monospace;
+    font-weight: bolder;
+}

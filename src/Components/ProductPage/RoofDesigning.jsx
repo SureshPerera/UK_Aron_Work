@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 export default function RoofDesigning() {
   return (
     <div>
+      <hr/>
       <Carousel>
           <Carousel.Item>
                  <img src='./Image01/Roof/i-roof-gemlight-hotel.jpg' style={{width:"100%",height:'480px'}}/>

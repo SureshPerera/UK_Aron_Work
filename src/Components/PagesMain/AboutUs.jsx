@@ -2,11 +2,11 @@ import React from 'react';
 import Ratio from 'react-bootstrap/Ratio';
 import Carousel from 'react-bootstrap/Carousel';
 import { Container } from 'react-bootstrap';
-
+import '../Css/aboutUs.css';
 export default function AboutUs() {
   return (
     <div>
-        
+       <hr/> 
         <Carousel>
           <Carousel.Item>
                  <img style={{width:"100%",height:'480px'}}src='./Image01/AboutUs/360_F_128447604_6deYSrg6bgH2F3YaoU0icdhvxNu4ReDN.jpg'/>

@@ -5,13 +5,14 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Images from '../contact.webp';
 import { Carousel, Image, Container } from 'react-bootstrap';
+import "../Css/contactUs.css";
 
 export default function ContactUs() {
 
  
   return (
     <div>
-      
+      <hr/>
       <Carousel>
           <Carousel.Item>
                  <img style={{width:"100%",height:'480px'}}src='./Image01/ContactUs/desktop-wallpaper-contact-contact-us.jpg'/>

@@ -7,23 +7,23 @@ import Card from 'react-bootstrap/Card';
 import gate084 from '../Images/gate084.jpg';
 import gate081 from '../Images/gate081.jpg';
 import window01 from '../Images/window01.jpg';
-
+import "../Components/Css/bestArcWorkers.css";
 
 export default function BestArcIronWokers() {
   return (
     <div>
-        <Card body style={{width:"",height:"",backgroundColor:"red"}}>
-            <b style={{textAlign:'center',color:"white", fontSize:"25px"}}>BEST ARC IRON WORKS</b>
+        <Card body style={{width:"",height:"",backgroundColor:"#333"}}>
+            <b style={{color:"white", fontSize:"25px"}}>BEST ARC IRON WORKS</b>
         <p style={{color:"white",fontSize:"20px"}}>While you are  Searching the Internet you visit our site because you want to have some kind of an iron work done by us, we are very glad to welcome you here!</p>
-        </Card>;
-
+        </Card>
+        <hr/>
       <Container>
         <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header><b style={{fontSize:"22px"}}>Gate Design Sri Lanka</b></Accordion.Header>
           <Accordion.Body>
           <Figure>
-        <Figure.Image
+        <Figure.Image className='figure'
           width={300}
           height={180}
           alt="300x180"

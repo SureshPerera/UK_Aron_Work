@@ -10,10 +10,11 @@ import React from 'react'
 
 function Navbars() {
   return (
-    <div>
+    
+    <div className='nav'>
       <Navbar expand="lg" className="bg-body-tertiary">
      <Container fluid>
-             <Navbar.Brand style={{backgroundColor:"darkgrey"} } href="#"><b>UK</b> IRON WORKS</Navbar.Brand>
+             <Navbar.Brand className='navbarBrand'><b>UK</b> IRON WORKS</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
        <Navbar.Collapse id="navbarScroll">
          <Nav

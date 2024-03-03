@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 export default function BestArcRepair() {
   return (
     <div>
+      <hr/>
        <Carousel>
           <Carousel.Item>
                  <img style={{width:"100%",height:'480px'}}src='Image01/Repair/background01.webp'/>

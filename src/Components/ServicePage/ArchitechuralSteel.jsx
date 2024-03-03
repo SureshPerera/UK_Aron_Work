@@ -9,6 +9,7 @@ import {Row,Carousel} from 'react-bootstrap';
 export default function ArchitechuralSteel() {
   return (
     <div>
+      <hr/>
       <Carousel>
           <Carousel.Item>
                  <img style={{width:"100%",height:'480px'}}src='Image01/Architecter/background.jpg'/>

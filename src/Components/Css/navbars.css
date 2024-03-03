@@ -1,7 +1,29 @@
-.bg-body-tertiary{
-   background-color: blue;
-}
 
-.me-auto my-2 my-lg-0{
-    background-color: antiquewhite;
+
+.nav{
+    background-color: #333 ;
+    border: 2px solid #f3ebeb;
+    border-radius: 1rem;
+    margin:0.5rem;
+    max-width: 1000rem;
+    height: 6rem
+
+   
+
+}
+Nav{
+    border: 2px solid #360202;
+    max-width: 1000rem;
+    border-radius: 1rem;
+    margin:1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    width: 100%;
+    font-size: 20px;
+}
+.navbarBrand{
+    background-color: #C7CB85;
+    padding: 50px;
+   
+
 }
