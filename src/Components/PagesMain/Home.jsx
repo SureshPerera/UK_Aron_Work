@@ -29,9 +29,7 @@ export default function Home() {
         <Container>
         
         </Container>
-        <b>
-        <div className='located'>WE ARE LOCATED IN HIRIPITIYA</div>
-        </b>
+        
         {/* <hr/>
         <AboutUs/>  
         {/* <GateDesigns/> */}

@@ -7,27 +7,6 @@
     
 }
 
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-
-body{
-    padding: 20px;
-    font-family: "Courier ", monospace ;
-    
-}
-
-a{
-    text-decoration: none;
-}
-a.active{
-    color: red;
-}
-a:hover {
-    color: red;
-}
 
 .located{
     color:whitesmoke;
@@ -40,7 +19,11 @@ a:hover {
     text-align: center;
     letter-spacing: 0.25em;
     font-size: 30px;
-    height: 60px;
+    height: 100px;
     font-family: 'Courier new', Courier, monospace;
     font-weight: bolder;
+}
+
+.figure{
+
 }

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ }
+ 
+ body{
+     padding: 20px;
+     font-family: "Courier ", monospace ;
+     background-color:#264653;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+ a.active{
+     color: red;
+ }
+ a:hover {
+     color: red;
+ }
+ 

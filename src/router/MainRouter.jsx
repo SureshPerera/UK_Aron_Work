@@ -6,7 +6,7 @@ import App from '../App'
 import AboutUs from '../Components/PagesMain/AboutUs'
 import MainLayout from '../MainLayout'
 import ContactUs from '../Components/PagesMain/ContactUs'
-
+import "../Components/Css/main.css"
 
 import GateDesigns from '../Components/ProductPage/GateDesigns'
 import HandGrillsDesigns from '../Components/ProductPage/HandGrillsDesigns'
@@ -38,6 +38,10 @@ const MainRouter = () => {
         </Route>
         </Routes>
       </BrowserRouter>
+      <b>
+        <div className='located'>WE ARE LOCATED IN HIRIPITIYA. 
+        <h5>Copyright © 2023 UK Iron Workers | Designed by Suresh</h5></div>
+        </b>
     </div>
   )
 }

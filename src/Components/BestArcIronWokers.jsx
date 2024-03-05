@@ -9,18 +9,19 @@ import gate081 from '../Images/gate081.jpg';
 import window01 from '../Images/window01.jpg';
 import "../Components/Css/bestArcWorkers.css";
 
+
 export default function BestArcIronWokers() {
   return (
-    <div>
+    <div >
         <Card body style={{width:"",height:"",backgroundColor:"#333"}}>
-            <b style={{color:"white", fontSize:"25px"}}>BEST ARC IRON WORKS</b>
-        <p style={{color:"white",fontSize:"20px"}}>While you are  Searching the Internet you visit our site because you want to have some kind of an iron work done by us, we are very glad to welcome you here!</p>
+            <b style={{color:"#F4A261", fontSize:"25px"}}>BEST ARC IRON WORKS</b>
+        <p style={{color:"#E76F51",fontSize:"20px"}}>While you are  Searching the Internet you visit our site because you want to have some kind of an iron work done by us, we are very glad to welcome you here!</p>
         </Card>
         <hr/>
       <Container>
-        <Accordion>
-        <Accordion.Item eventKey="0">
-          <Accordion.Header><b style={{fontSize:"22px"}}>Gate Design Sri Lanka</b></Accordion.Header>
+        <Accordion >
+        <Accordion.Item eventKey="0" style={{background:"#2A9D8F"}}>
+          <Accordion.Header ><b style={{color:"#F4A261",fontSize:"22px",width:'100%', height:'2rem', padding:'0'}}>Gate Design Sri Lanka</b></Accordion.Header>
           <Accordion.Body>
           <Figure>
         <Figure.Image className='figure'
@@ -39,7 +40,7 @@ export default function BestArcIronWokers() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header><b style={{fontSize:"22px"}}>Iron Window Designs Sri Lanka</b></Accordion.Header>
+          <Accordion.Header><b style={{color:"#F4A261",fontSize:"22px",width:'100%', height:'2rem', padding:'0'}}>Iron Window Designs Sri Lanka</b></Accordion.Header>
           <Accordion.Body>
           <Figure>
         <Figure.Image
@@ -57,7 +58,7 @@ export default function BestArcIronWokers() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header><b style={{fontSize:"22px"}}>Roof Designs Sri Lanka</b></Accordion.Header>
+          <Accordion.Header><b style={{color:"#F4A261",fontSize:"22px",width:'100%', height:'2rem', padding:'0'}}>Roof Designs Sri Lanka</b></Accordion.Header>
           <Accordion.Body >
           <Figure>
         <Figure.Image
