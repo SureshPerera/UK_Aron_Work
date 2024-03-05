@@ -21,7 +21,7 @@ export default function ArchitechuralSteel() {
         </Carousel>   
       <hr/>
       <Container>
-      <p>
+      <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
       We can help you with everything from advice, proposals, design, development, delivery and final installation. This A to Z solution means that your project can run smoothly.
       <br/>You can leave the technical and logistical aspects of your steel structure safely in our hands.
 We’re happy to work with contractors, architects or any other building professional and on any type of steel design project,

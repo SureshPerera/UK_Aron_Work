@@ -23,7 +23,7 @@ export default function HandGrillsDesigns() {
         </Carousel>   
         <hr/>
         <Container>
-      <p>
+      <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
       We are one of the prominent manufacturers of an array of Metal Railings. These are manufactured using quality raw materials, so our products quality equivalent to international quality standards.
 our professionals are always varied helpful and always happy to talk with you and get your ideas as well. and  We have fabricated several staircases both internal and external and either straight, curved or spiral.
 <br/>These have been made with stainless steel, mild steel or aluminium.

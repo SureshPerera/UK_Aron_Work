@@ -21,9 +21,10 @@ export default function ResponciveImj() {
       
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-         <Image style={{alignContent:'center',width:"50%",height:"480px"}} src={image}/> 
+         <Image style={{width:"100%",height:"480px"}} img src="../Image01/HomePagepic.jpg"/>  
         <div style={{width:"100%",height:"150px", backgroundColor:"#333", }}></div>
         <Carousel.Caption style={{color:'#E9C46A'}}>
+        <h3 style={{fontSize:'80px',color:'orange',width:'400px',height:'200px',backgroundColor:'white',margin:'2.5rem -1em 2em'}}><b>UK IRON </b>WORKS</h3>
           <h3>We Provide Excellent Service For You</h3>
           <p><b>UK</b> IRON WORK 0771293002</p>
         </Carousel.Caption>

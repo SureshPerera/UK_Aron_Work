@@ -27,12 +27,12 @@ export default function ContactUs() {
 
         <Container>
           <span>
-            <h5>Adress</h5>
-            <p>Hiripitiya,Nikadalupotha</p>
-            <h5>Contact No</h5>
-            <p>076854125</p>
-            <h5>Email</h5>
-            <p>ukironworks850@gmail.com</p>
+            <h5 style={{background:"#2A9D8F"}}>Adress</h5>
+            <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>Hiripitiya,Nikadalupotha</p>
+            <h5 style={{background:"#2A9D8F"}}>Contact No</h5>
+            <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>076854125</p>
+            <h5 style={{background:"#2A9D8F"}}>Email</h5>
+            <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>ukironworks850@gmail.com</p>
           </span>
                 <hr/>
               
@@ -40,34 +40,34 @@ export default function ContactUs() {
                 <Form>
                 <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Label style={{background:"#2A9D8F"}}>Email</Form.Label>
+            <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} type="email" placeholder="Enter email"/>
           </Form.Group>
                 
           
                 <Form.Group className="mb-3" controlId="formGridAddress1">
-          <Form.Label>Name</Form.Label>
-          <Form.Control placeholder="Enter Your Name" />
+          <Form.Label style={{background:"#2A9D8F"}}>Name</Form.Label>
+          <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} placeholder="Enter Your Name" />
                 </Form.Group>
           
                 </Row>
           
                 <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridCity">
-            <Form.Label>Contact No</Form.Label>
-            <Form.Control placeholder='Enter phone number' />
+            <Form.Label style={{background:"#2A9D8F"}}>Contact No</Form.Label>
+            <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} placeholder='Enter phone number' />
           </Form.Group>
           <Form.Group as={Col} controlId="formGridZip">
-            <Form.Label>Massage</Form.Label>
-            <Form.Control placeholder='Enter Your Comment '/>
+            <Form.Label style={{background:"#2A9D8F"}}>Massage</Form.Label>
+            <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} placeholder='Enter Your Comment '/>
           </Form.Group>
                 </Row>
           
                 <Form.Group className="mb-3" id="formGridCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
+          <Form.Check style={{background:"#2A9D8F"}} type="checkbox" label="Check me out" />
                 </Form.Group>
           
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" >
           Submit
                 </Button>
               </Form>

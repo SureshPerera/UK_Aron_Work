@@ -21,9 +21,9 @@ export default function GateDesigns() {
           <hr/>
           <Container>
         <h4>
-        <p>Sri Lankan House Gate Designs</p>
+        <p style={{background:"#2A9D8F"}}>Sri Lankan House Gate Designs</p>
         </h4>
-        <p>When entering your property, the gate is often the first thing your guests see. Make sure you make the right first impression with a beautiful gate created by Best arc ironwork. Our professional team promises Personalized service every step of the way, always aiming for your complete satisfaction.
+        <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>When entering your property, the gate is often the first thing your guests see. Make sure you make the right first impression with a beautiful gate created by Best arc ironwork. Our professional team promises Personalized service every step of the way, always aiming for your complete satisfaction.
         <br/>We craft iron gates, steel and metal gates in Colombo . Each gate is custom designed at our workshop, ensuring a custom job for every client.
         <br/>When you partner with our team, you’ll benefit from an experienced team committed to superior service.
         <br/>Just give us a call to schedule a design consultation and request an estimate for your iron, steel or metal gates.

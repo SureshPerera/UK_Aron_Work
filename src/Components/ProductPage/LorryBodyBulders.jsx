@@ -23,7 +23,7 @@ export default function LorryBodyBulders() {
         <hr/>
           
       <Container>
-        <p>
+        <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
         We manufacture different types of truck body suited for every business need.
         <br/>We have garnered the trust of Automobile brands by providing them with quality products and excellent service for every delivery of our new Truck Body design. We build bodies to meet your specifications.
         <br/>Customers are included in every step of the process in order to make sure they are receiving exactly what they need.

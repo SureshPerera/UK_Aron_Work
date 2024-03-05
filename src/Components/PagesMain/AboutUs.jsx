@@ -22,16 +22,16 @@ export default function AboutUs() {
           <Container>
                  <span>
           <h4>
-              <b>Best arc ironworks</b>
+              <b style={{background:"#2A9D8F"}}>Best arc ironworks</b>
           </h4>
-          <p>
+          <p  style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
           as a modern steel fabricating company, We love coming up with new ways to beautify your home or workspace. Best Arc Ironworks is funded by Mr Douglus 20 years ago and he has 25 years of experience in manufacturing, Installing and repairing custom-made steel and glass railings, stair casings, gates, fencings, Industrial and Parking sheds, Modular House and much more. In addition, we provide structure fabrication service to the Residential and Commercial Construction projects.
           </p>
           <hr/>
           <h4>
-               <b>Why Choose Us?</b>
+               <b style={{background:"#2A9D8F"}}>Why Choose Us?</b>
           </h4>
-          <p>We do fabricate / Manufacture and repair in our shop or on-site. At Best arc iron works, we strive to make every customer happy… Our focus is to offer professional service with a smile, and leave you feeling good about the work we did for you. Our commitment is to provide high-quality products, on-time delivery and great service at a competitive price.
+          <p  style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>We do fabricate / Manufacture and repair in our shop or on-site. At Best arc iron works, we strive to make every customer happy… Our focus is to offer professional service with a smile, and leave you feeling good about the work we did for you. Our commitment is to provide high-quality products, on-time delivery and great service at a competitive price.
              <br/> We want to ensure that our customers are satisfied with the quality and value of the products and services they buy from us.
           </p>
           <hr/>
