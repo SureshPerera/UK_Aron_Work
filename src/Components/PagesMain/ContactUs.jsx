@@ -26,27 +26,27 @@ export default function ContactUs() {
       <hr/>
 
         <Container>
-          <span>
-            <h5 style={{background:"#2A9D8F"}}>Adress</h5>
+          <div style={{color:"#E76F51",fontSize:"20px",width:"",height:"",backgroundColor:"#333", border: '3px outset white',padding:'0',margin: '10px'}}>
+            <h5 style={{color:"#F4A261", fontSize:'25px'}}>Adress</h5>
             <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>Hiripitiya,Nikadalupotha</p>
-            <h5 style={{background:"#2A9D8F"}}>Contact No</h5>
+            <h5 style={{color:"#F4A261", fontSize:'25px'}}>Contact No</h5>
             <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>076854125</p>
-            <h5 style={{background:"#2A9D8F"}}>Email</h5>
+            <h5 style={{color:"#F4A261", fontSize:'25px'}}>Email</h5>
             <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>ukironworks850@gmail.com</p>
-          </span>
+          </div>
                 <hr/>
               
-              <span>
+              <div style={{color:"#E76F51",fontSize:"20px",width:"",height:"",backgroundColor:"#333", border: '3px outset white',padding:'0',margin: '10px'}}>
                 <Form>
                 <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label style={{background:"#2A9D8F"}}>Email</Form.Label>
+            <Form.Label style={{color:"#F4A261", fontSize:'25px'}}>Email</Form.Label>
             <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} type="email" placeholder="Enter email"/>
           </Form.Group>
                 
           
                 <Form.Group className="mb-3" controlId="formGridAddress1">
-          <Form.Label style={{background:"#2A9D8F"}}>Name</Form.Label>
+          <Form.Label style={{color:"#F4A261", fontSize:'25px'}}>Name</Form.Label>
           <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} placeholder="Enter Your Name" />
                 </Form.Group>
           
@@ -54,24 +54,24 @@ export default function ContactUs() {
           
                 <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridCity">
-            <Form.Label style={{background:"#2A9D8F"}}>Contact No</Form.Label>
+            <Form.Label style={{color:"#F4A261", fontSize:'25px'}}>Contact No</Form.Label>
             <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} placeholder='Enter phone number' />
           </Form.Group>
           <Form.Group as={Col} controlId="formGridZip">
-            <Form.Label style={{background:"#2A9D8F"}}>Massage</Form.Label>
-            <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} placeholder='Enter Your Comment '/>
+            <Form.Label  style={{color:"#F4A261", fontSize:'25px'}}>Massage</Form.Label>
+            <Form.Control style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} placeholder='Enter Your Comment'/>
           </Form.Group>
                 </Row>
           
                 <Form.Group className="mb-3" id="formGridCheckbox">
-          <Form.Check style={{background:"#2A9D8F"}} type="checkbox" label="Check me out" />
+          <Form.Check  style={{color:"#F4A261", fontSize:'25px'}} type="checkbox" label="Check me out" />
                 </Form.Group>
           
                 <Button variant="primary" type="submit" >
           Submit
                 </Button>
               </Form>
-                </span>
+                </div >
         </Container>
       
     </div>

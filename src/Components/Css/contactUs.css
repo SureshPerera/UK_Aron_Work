@@ -2,3 +2,11 @@ input,button{
     font: inherit;
     color: rgb(87, 29, 10);
 }
+
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: red;
+  }
+  
+  ::placeholder {
+    color: red;
+  }
