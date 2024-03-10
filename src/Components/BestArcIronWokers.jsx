@@ -8,7 +8,8 @@ import gate084 from '../Images/gate084.jpg';
 import gate081 from '../Images/gate081.jpg';
 import window01 from '../Images/window01.jpg';
 import "../Components/Css/bestArcWorkers.css";
-
+import '../Components/Css/home.css'
+import '../Components/Css/main.css'
 
 export default function BestArcIronWokers() {
   return (
@@ -30,7 +31,7 @@ export default function BestArcIronWokers() {
           alt="300x180"
           src={gate084}
         />
-        <Figure.Caption style={{ width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
+        <Figure.Caption style={{ width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px",border:'3px outset white',padding:'0'}}>
         You may want to create your own gate for your home, institute, or for your workshop, and it’s important to carefully understand the gate design, having a good design is more important. If the design is not fit for today, then the expenditure for the gate will be in vain.
         If you want  the gate is in a state without decay for a period of time, then it is best to use the high-quality raw materials,
         When we talk about Gate designs in Sri Lanka, best arc iron works is in the first companies you will find, And also we are among the founders of giant gates with delicate engraving patterns instead of normal gates.
@@ -49,7 +50,7 @@ export default function BestArcIronWokers() {
           alt="300x180"
           src={gate081}
         />
-        <Figure.Caption style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
+        <Figure.Caption className='paraCssEdit'>
         Even if you have a very nice home if there is an old outdated window in the home. the look and value of your house abate because of your old window.
         As we make the window, we use most of the time to design the windows, because we really think about the appearance of your home.
         We also care about the design of the windows as well as the security of the house because we are using high-quality materials in the production of windows. Therefore, we will give you a good warranty for the windows that we fabricate in our workshop
