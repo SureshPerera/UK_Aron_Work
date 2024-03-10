@@ -23,6 +23,7 @@
 
 p{
     line-height: 1.5;
+    padding: 20px;
 }
  
 .paraCssEdit{
@@ -30,6 +31,45 @@ p{
     height:"";
     background-color:"#333";
     border: '3px outset white';
-    padding:'0';
+    padding:'20px';
     margin: '10px';
+}
+
+.text-borderLine-background{
+    color: #E76F51;
+    font-size:20px;
+    width:"";
+    height:"";
+    background-color:#333;
+    border: 3px outset white;
+    padding:20px;
+    margin: 10px;
+}
+
+.image-list-relax{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    background-color: #0000001f;
+    padding: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    gap: 30px;
+}
+
+.image-list-relax img {
+    position: relative;
+    z-index: 1;
+    transition-duration: 700ms;
+    
+}
+
+.image-list-relax img:hover{
+    scale:1.2;
+    z-index: 1;
+    transition-duration:700ms;
+    border-radius: 20px;
 }

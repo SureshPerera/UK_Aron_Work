@@ -6,7 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ironwork3 from '../IronWork3.jpg';
 import { Carousel,Image } from 'react-bootstrap';
-
+import '../Css/main.css';
+import '../Css/main.css';
 
 export default function HandGrillsDesigns() {
   return (
@@ -23,7 +24,7 @@ export default function HandGrillsDesigns() {
         </Carousel>   
         <hr/>
         <Container>
-      <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
+      <p className='text-borderLine-background'>
       We are one of the prominent manufacturers of an array of Metal Railings. These are manufactured using quality raw materials, so our products quality equivalent to international quality standards.
 our professionals are always varied helpful and always happy to talk with you and get your ideas as well. and  We have fabricated several staircases both internal and external and either straight, curved or spiral.
 <br/>These have been made with stainless steel, mild steel or aluminium.
@@ -34,7 +35,7 @@ We are manufacturing all the products using high-grade components and modern tec
       </p>
       <span>
         <Container>
-      <Row>
+      <Row className='image-list-relax'>
         <Col xs={6} md={4}>
          <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Handgrill/2H2A7913.jpg'/>
         </Col>

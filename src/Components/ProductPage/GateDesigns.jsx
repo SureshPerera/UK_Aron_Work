@@ -1,6 +1,6 @@
 import React from 'react'
 import Col from 'react-bootstrap/Col';
-
+import '../Css/main.css';
 import Row from 'react-bootstrap/Row';
 import ironwork2 from '../ironwork 2.png';
 import { Carousel, Image, Container } from 'react-bootstrap';
@@ -23,14 +23,14 @@ export default function GateDesigns() {
         <h4>
         <p style={{background:"#2A9D8F"}}>Sri Lankan House Gate Designs</p>
         </h4>
-        <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>When entering your property, the gate is often the first thing your guests see. Make sure you make the right first impression with a beautiful gate created by Best arc ironwork. Our professional team promises Personalized service every step of the way, always aiming for your complete satisfaction.
+        <p className='text-borderLine-background'> When entering your property, the gate is often the first thing your guests see. Make sure you make the right first impression with a beautiful gate created by Best arc ironwork. Our professional team promises Personalized service every step of the way, always aiming for your complete satisfaction.
         <br/>We craft iron gates, steel and metal gates in Colombo . Each gate is custom designed at our workshop, ensuring a custom job for every client.
         <br/>When you partner with our team, you’ll benefit from an experienced team committed to superior service.
         <br/>Just give us a call to schedule a design consultation and request an estimate for your iron, steel or metal gates.
         </p>
           <span>
           <Container>
-        <Row>
+        <Row className='image-list-relax'>
           <Col  xs={6} md={4}>
             <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px",}} src='./Image01/GateImg/gate062-1.jpg'/>
           </Col>

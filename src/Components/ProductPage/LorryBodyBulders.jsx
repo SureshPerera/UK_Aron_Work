@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import { Carousel,Image } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
-
+import '../Css/main.css';
 
 export default function LorryBodyBulders() {
   return (
@@ -23,14 +23,14 @@ export default function LorryBodyBulders() {
         <hr/>
           
       <Container>
-        <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
+        <p className='text-borderLine-background'>
         We manufacture different types of truck body suited for every business need.
         <br/>We have garnered the trust of Automobile brands by providing them with quality products and excellent service for every delivery of our new Truck Body design. We build bodies to meet your specifications.
         <br/>Customers are included in every step of the process in order to make sure they are receiving exactly what they need.
         </p>
         <span>
           <Container>
-        <Row>
+        <Row className='image-list-relax'>
           <Col xs={6} md={4}>
            <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Lory body/images01.jpeg'/>
           </Col>

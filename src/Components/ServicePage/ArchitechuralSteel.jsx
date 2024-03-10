@@ -3,7 +3,7 @@ import React from 'react'
 // import { Image } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-
+import '../Css/main.css'
 import {Row,Carousel} from 'react-bootstrap';
 
 export default function ArchitechuralSteel() {
@@ -21,7 +21,7 @@ export default function ArchitechuralSteel() {
         </Carousel>   
       <hr/>
       <Container>
-      <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
+      <p className='text-borderLine-background'>
       We can help you with everything from advice, proposals, design, development, delivery and final installation. This A to Z solution means that your project can run smoothly.
       <br/>You can leave the technical and logistical aspects of your steel structure safely in our hands.
 We’re happy to work with contractors, architects or any other building professional and on any type of steel design project,

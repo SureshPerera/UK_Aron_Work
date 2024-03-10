@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import { Carousel } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
+import '../Css/main.css';
 
 export default function BestArcRepair() {
   return (
@@ -22,7 +23,7 @@ export default function BestArcRepair() {
         <hr/>
         <Container>
       {/* <Image src={image} fluid="true"/> */}
-      <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>Usually, all the iron products that we manufacture in our company are using very good raw material, so we do not receive calls for repair those products from our customers
+      <p className='text-borderLine-background'>Usually, all the iron products that we manufacture in our company are using very good raw material, so we do not receive calls for repair those products from our customers
       <br/>But if you have iron made products made with low-quality materials in your home or your working place, you may soon have to find a repair service to fix those items
       <br/>However, if you have produced some iron products from another company, if you look forward to our repair service, we would gladly provide you with the service.
       <br/>We will be happy to give our service to fix your broken door, a roof, a window, your gate or something else. Our experienced repairing team will work to ensure that the maintenance work is completed in time and with good quality.

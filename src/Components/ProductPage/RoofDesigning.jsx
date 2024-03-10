@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import { Carousel,Image } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
+import '../Css/main.css';
 
 export default function RoofDesigning() {
   return (
@@ -22,7 +23,7 @@ export default function RoofDesigning() {
         <hr/>
         
       <Container>
-        <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>
+        <p className='text-borderLine-background'>
         We provide Sri Lanka’s finest Steel Roofing to meet the need of Sri Lankan industrial and domestic steel roofing requirements, We understand the actual need and offers a complete solution from Design, Manufacture, Installation to Completion.
         <br/>We provide cost-effective solutions, Which are Sound, Leak proof & give an attractive look to the Building.
         <br/>Roof & wall cladding System designed using latest technology & economical products with features such as longevity & durability, Besides providing a new rich look to the building.
@@ -30,7 +31,7 @@ export default function RoofDesigning() {
         </p>
         <span>
           <Container>
-        <Row>
+        <Row className='image-list-relax'>
           <Col xs={6} md={4}>
            <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Roof/roofing001.jpg'/>
           </Col>

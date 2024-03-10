@@ -6,7 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Images from '../contact.webp';
 import { Carousel, Image, Container } from 'react-bootstrap';
 import "../Css/contactUs.css";
-
+import '../Css/main.css';
+import '../Css/main.css'
 export default function ContactUs() {
 
  
@@ -26,7 +27,7 @@ export default function ContactUs() {
       <hr/>
 
         <Container>
-          <div style={{color:"#E76F51",fontSize:"20px",width:"",height:"",backgroundColor:"#333", border: '3px outset white',padding:'0',margin: '10px'}}>
+          <div className='borderCss'>
             <h5 style={{color:"#F4A261", fontSize:'25px'}}>Adress</h5>
             <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}}>Hiripitiya,Nikadalupotha</p>
             <h5 style={{color:"#F4A261", fontSize:'25px'}}>Contact No</h5>
@@ -36,7 +37,7 @@ export default function ContactUs() {
           </div>
                 <hr/>
               
-              <div style={{color:"#E76F51",fontSize:"20px",width:"",height:"",backgroundColor:"#333", border: '3px outset white',padding:'0',margin: '10px'}}>
+              <div className="borderCss" >
                 <Form>
                 <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridEmail">

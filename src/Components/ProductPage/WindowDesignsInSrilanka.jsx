@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import image from '../WindowDesingCover.jpeg';
 import Row from 'react-bootstrap/Row';
 import { Image,Carousel } from 'react-bootstrap';
-
+import '../Css/main.css';
 
 export default function WindowDesignsInSrilanka() {
    
@@ -24,13 +24,13 @@ export default function WindowDesignsInSrilanka() {
         </Carousel>   
         <hr/>
         <Container>
-      <p style={{width:"",height:"",backgroundColor:"#333",fontSize:"20px",color:"#E76F51",fontSize:"20px"}} >We are one of the prominent manufacturers of an array of Metal windows. all the windows are manufactured using high-quality raw materials.
+      <p className='text-borderLine-background'>We are one of the prominent manufacturers of an array of Metal windows. all the windows are manufactured using high-quality raw materials.
       <br/>we are capable of fabricating any type of a window, especially modern window designs. 
       <br/>our professionals are always varied helpful and always happy to talk with you about the idea or design that you have in your mind.
       </p> 
       <span>
         <Container>
-      <Row>
+      <Row className='image-list-relax'>
         <Col xs={6} md={4}>
         <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Window/windows03.jpg'/>
         </Col>
