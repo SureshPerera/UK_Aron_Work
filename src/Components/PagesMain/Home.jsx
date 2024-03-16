@@ -15,6 +15,7 @@ import BestArcRepair from '../ServicePage/BestArcRepair';
 import ContactUs from './ContactUs';
 import { Container } from 'react-bootstrap';
 import '../Css/home.css';
+import '../Css/main.css';
 
 export default function Home() {
   return (
@@ -27,29 +28,10 @@ export default function Home() {
         <BestArcIronWokers/>
         <hr/>
         <Container>
-        
+       
         </Container>
         
-        {/* <hr/>
-        <AboutUs/>  
-        {/* <GateDesigns/> */}
-        {/* <HandGrillsDesigns/> */}
-        {/* <WindowDesignsInSrilanka/> */}
-        {/* <RoofDesigning/> */}
-        {/* <LorryBodyBulders/> */}
-        {/* <ArchitechuralSteel/> */}
-        {/* <BestArcRepair/> */}
-        {/* <span>
-          <BrowserRouter>
-          <Routers>
-            <Route path ='/' element={<Home/>}/>
-            <Route path ='/aboutUs' element={<AboutUs/>}/>
-            </Routers>
-            </BrowserRouter>
-        </span> */}
-        {/* <ContactUs/> */}
       
-
     </div>
   )
 }

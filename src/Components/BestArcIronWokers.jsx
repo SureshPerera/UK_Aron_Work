@@ -21,7 +21,7 @@ export default function BestArcIronWokers() {
         <hr/>
       <Container>
         <Accordion >
-        <Accordion.Item eventKey="0" style={{background:"#2A9D8F"}}>
+        <Accordion.Item eventKey="0" style={{background:"#EBBE9B"}}>
           <Accordion.Header ><b style={{color:"#F4A261",fontSize:"22px",width:'100%', height:'2rem', padding:'0'}}>Gate Design Sri Lanka</b></Accordion.Header>
           <Accordion.Body>
           <Figure>
@@ -40,7 +40,7 @@ export default function BestArcIronWokers() {
             </Figure>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="1" style={{background:"#2A9D8F"}}>
+        <Accordion.Item eventKey="1" style={{background:"#EBBE9B"}}>
           <Accordion.Header><b style={{color:"#F4A261",fontSize:"22px",width:'100%', height:'2rem', padding:'0'}}>Iron Window Designs Sri Lanka</b></Accordion.Header>
           <Accordion.Body>
           <Figure>
@@ -58,7 +58,7 @@ export default function BestArcIronWokers() {
             </Figure>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="2" style={{background:"#2A9D8F"}}>
+        <Accordion.Item eventKey="2" style={{background:"#EBBE9B"}}>
           <Accordion.Header><b style={{color:"#F4A261",fontSize:"22px",width:'100%', height:'2rem', padding:'0'}}>Roof Designs Sri Lanka</b></Accordion.Header>
           <Accordion.Body >
           <Figure>

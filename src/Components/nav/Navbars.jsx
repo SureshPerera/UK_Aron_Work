@@ -14,7 +14,7 @@ function Navbars() {
     <div className='nav'>
       <Navbar expand="lg" className="bg-body-tertiary">
      <Container fluid>
-             <Navbar.Brand className='navbarBrand' style={{color:'red'}}><b>UK</b> IRON WORKS</Navbar.Brand>
+             <Navbar.Brand className='navbarBrand' style={{color:'white', fontFamily:'cursive'}}><b style={{fontSize:'40px', color:'red'}}>UK</b> IRON WORKS</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
        <Navbar.Collapse id="navbarScroll">
          <Nav

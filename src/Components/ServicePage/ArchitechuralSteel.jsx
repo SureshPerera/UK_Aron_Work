@@ -30,7 +30,7 @@ We’re happy to work with contractors, architects or any other building profess
       </p>
       <span>
         <Container>
-      <Row>
+      <Row className='image-list-relax'>
         <Col xs={6} md={4}>
         <img style={{margin: "5px",border: "1px solid #ccc",float: "left",width: "350px"}} src='./Image01/Architecter/Image001.jpg'/>
         </Col>
