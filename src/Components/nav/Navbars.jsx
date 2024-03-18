@@ -11,15 +11,15 @@ import React from 'react'
 function Navbars() {
   return (
     
-    <div className='nav'>
-      <Navbar expand="lg" className="bg-body-tertiary">
-     <Container fluid>
+    <div  className='nav'>
+      <Navbar expand="lg" className="bg-body-tertiary" >
+     <Container fluid style={{backgroundColor:'#dddddd'}}>
              <Navbar.Brand className='navbarBrand' style={{color:'white', fontFamily:'cursive'}}><b style={{fontSize:'40px', color:'red'}}>UK</b> IRON WORKS</Navbar.Brand>
-      <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Toggle aria-controls="navbarScroll"/>
        <Navbar.Collapse id="navbarScroll">
          <Nav
           className="me-auto my-2 my-lg-0"
-          style={{ maxHeight: '100px' }}
+          style={{ maxHeight: '100px'}}
           navbarScroll
         >
          <Nav.Link > <Link to="/" > HOME </Link></Nav.Link>

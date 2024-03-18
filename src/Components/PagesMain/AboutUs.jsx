@@ -23,10 +23,10 @@ export default function AboutUs() {
                  
           <div style={{color:"#E76F51",fontSize:"20px",width:"",height:"",backgroundColor:"#333", border: '3px outset white',padding:'0',margin: '10px'}}>
             <h4>
-                <b style={{color:"#F4A261", fontSize:"25px"}}>Best arc ironworks</b>
+                <b style={{color:"#F4A261", fontSize:"25px"}}>UK ironworks</b>
             </h4>
             <p  >
-            as a modern steel fabricating company, We love coming up with new ways to beautify your home or workspace. Best Arc Ironworks is funded by Mr Douglus 20 years ago and he has 25 years of experience in manufacturing, Installing and repairing custom-made steel and glass railings, stair casings, gates, fencings, Industrial and Parking sheds, Modular House and much more. In addition, we provide structure fabrication service to the Residential and Commercial Construction projects.
+            as a modern steel fabricating company, We love coming up with new ways to beautify your home or workspace. UK Ironworks is funded by Mr Udaya Kumar 25 years ago and he has 30 years of experience in manufacturing, Installing and repairing custom-made steel and glass railings, stair casings, gates, fencings, Industrial and Parking sheds, Modular House and much more. In addition, we provide structure fabrication service to the Residential and Commercial Construction projects.
             </p>
           </div>
           <hr/>
@@ -34,7 +34,7 @@ export default function AboutUs() {
             <h4>
                  <b style={{color:"#F4A261", fontSize:"25px"}}>Why Choose Us?</b>
             </h4>
-            <p >We do fabricate / Manufacture and repair in our shop or on-site. At Best arc iron works, we strive to make every customer happy… Our focus is to offer professional service with a smile, and leave you feeling good about the work we did for you. Our commitment is to provide high-quality products, on-time delivery and great service at a competitive price.
+            <p >We do fabricate / Manufacture and repair in our shop or on-site. At UK iron works, we strive to make every customer happy… Our focus is to offer professional service with a smile, and leave you feeling good about the work we did for you. Our commitment is to provide high-quality products, on-time delivery and great service at a competitive price.
                <br/> We want to ensure that our customers are satisfied with the quality and value of the products and services they buy from us.
             </p>
           </div>

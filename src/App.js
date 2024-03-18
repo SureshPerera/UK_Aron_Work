@@ -12,7 +12,7 @@ import Authenticator from './Components/Auth/authenticator';
 export default function App() {
   return (
     <div >
-      <Authenticator/>
+      {/* <Authenticator/> */}
       <MainRouter/>
     </div>
   )

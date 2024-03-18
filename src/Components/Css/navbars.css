@@ -1,16 +1,5 @@
 
 
-/* .nav{
-    background-color: #2A9D8F ;
-    border: 2px solid #f3ebeb;
-    border-radius: 1rem;
-    margin:0.5rem;
-    max-width: 1000rem;
-    height: 6rem */
-
-   
-/* 
-} */
 Nav{
     border: 2px solid #360202;
     max-width: 1000rem;
@@ -20,14 +9,15 @@ Nav{
     line-height: 2rem;
     width: 100%;
     font-size: 20px;
-    background-color: #502419;
+    background-color:#dddddd;
     border: 1px solid #f3ebeb;
-   
     
 }
 .navbarBrand{
     background-color: #C7CB85;
     padding: 50px;
+   
+
    
 
 }
