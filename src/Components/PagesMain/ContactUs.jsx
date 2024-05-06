@@ -12,7 +12,7 @@ export default function ContactUs() {
 
  
   return (
-    <div>
+    <div style={{padding:50, paddingLeft:10, paddingRight:10,}}>
       <hr/>
       <Carousel>
           <Carousel.Item>

@@ -9,7 +9,7 @@ import '../Css/main.css';
 
 export default function RoofDesigning() {
   return (
-    <div>
+    <div style={{padding:50, paddingLeft:10, paddingRight:10,}}>
       <hr/>
       <Carousel>
           <Carousel.Item>

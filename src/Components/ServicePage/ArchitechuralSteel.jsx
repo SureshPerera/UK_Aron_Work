@@ -8,7 +8,7 @@ import {Row,Carousel} from 'react-bootstrap';
 
 export default function ArchitechuralSteel() {
   return (
-    <div>
+    <div style={{padding:50, paddingLeft:10, paddingRight:10,}}>
       <hr/>
       <Carousel>
           <Carousel.Item>

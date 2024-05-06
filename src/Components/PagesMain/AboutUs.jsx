@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 import '../Css/aboutUs.css';
 export default function AboutUs() {
   return (
-    <div>
+    <div style={{padding:50, paddingLeft:10, paddingRight:10,}}>
        <hr/> 
         <Carousel>
           <Carousel.Item>
