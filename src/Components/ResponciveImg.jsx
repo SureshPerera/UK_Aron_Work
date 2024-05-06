@@ -19,7 +19,7 @@ export default function ResponciveImj() {
   return (
     <div>
       
-      <Carousel activeIndex={index} onSelect={handleSelect} style={{}}>
+      <Carousel activeIndex={index} onSelect={handleSelect} style={{animation:'backwards'}}>
       <Carousel.Item>
          <Image style={{width:"100%",height:"480px"}} img src="../Image01/HomePagepic.jpg"/>  
         <div style={{width:"100%",height:"150px", backgroundColor:"#333", }}></div>

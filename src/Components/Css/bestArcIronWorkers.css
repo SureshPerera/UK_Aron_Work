@@ -1,0 +1,21 @@
+.paragraph{
+    
+    font-Size:15px;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: #F4A261;
+
+}
+
+h3{
+    color:#F4A261;
+    font-size:22px;
+    width:100%;
+    font-weight: bold;
+    height:2rem;
+    padding:10;
+}
+
+p{
+    color:#e37419;
+}

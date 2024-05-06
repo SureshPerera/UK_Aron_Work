@@ -7,7 +7,7 @@ import AboutUs from '../Components/PagesMain/AboutUs'
 import MainLayout from '../MainLayout'
 import ContactUs from '../Components/PagesMain/ContactUs'
 import "../Components/Css/main.css"
-
+import Calculator from '../Components/PagesMain/Calculator';
 import GateDesigns from '../Components/ProductPage/GateDesigns'
 import HandGrillsDesigns from '../Components/ProductPage/HandGrillsDesigns'
 import LorryBodyBulders from '../Components/ProductPage/LorryBodyBulders'
@@ -18,15 +18,17 @@ import BestArcIronWokers from '../Components/BestArcIronWokers'
 import BestArcRepair from '../Components/ServicePage/BestArcRepair'
 
 const MainRouter = () => {
+   
   return (
-    <div>
+    <div >
+
       <BrowserRouter>
         <Routes>
             <Route path='/' Component={MainLayout}> 
             <Route index Component={Home}/>
             <Route path='AboutUs' Component={AboutUs}/>
             <Route path='ContactUs' Component={ContactUs}/>
-            
+            <Route path='calculator' Component={Calculator}/>
            
             <Route path='GateDesigns' Component={GateDesigns}/>
             <Route path='HandDrillsDesigns' Component={HandGrillsDesigns}/>
@@ -39,8 +41,17 @@ const MainRouter = () => {
         </Routes>
       </BrowserRouter>
       <b>
+        
+        
         <div className='located'>WE ARE LOCATED IN HIRIPITIYA. 
-        <h5>Copyright © 2023 UK Iron Workers | Designed by Suresh</h5></div>
+        <h5>Copyright © 2023 UK Iron Workers | Designed by Suresh</h5>
+        <div style={{}}> 
+          <a href='' >Facebook</a> <bn/> <bn/>
+          <a href=''>Gmail</a> <bn/>
+          <a href=''>Whatsapp</a> <bn/>
+        </div>
+        </div>
+        
         </b>
     </div>
   )

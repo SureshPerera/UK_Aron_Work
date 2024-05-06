@@ -11,10 +11,10 @@ import React from 'react'
 function Navbars() {
   return (
     
-    <div  className='nav'>
+    <div  className='nav'  style={{padding:5, paddingLeft:0, paddingRight:40,}}>
       <Navbar expand="lg" className="bg-body-tertiary" >
      <Container fluid style={{backgroundColor:'#dddddd'}}>
-             <Navbar.Brand className='navbarBrand' style={{color:'white', fontFamily:'cursive'}}><b style={{fontSize:'40px', color:'red'}}>UK</b> IRON WORKS</Navbar.Brand>
+             <Navbar.Brand className='navbarBrand' style={{color:'white', fontFamily:'cursive'}}><div className='uk'><a href='#'><b  style={{fontSize:'40px', color:'red'}}>UK</b></a></div> IRON WORKS</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll"/>
        <Navbar.Collapse id="navbarScroll">
          <Nav
@@ -37,6 +37,7 @@ function Navbars() {
               <NavDropdown.Item><Link to="ArchitechuralSteel">DESIGN</Link></NavDropdown.Item> 
               <NavDropdown.Item><Link to="BestArcRepair">REPAIR</Link> </NavDropdown.Item> 
               </NavDropdown>  
+              <Nav.Link > <Link to="Calculator">CALCULATOR</Link></Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -44,6 +45,7 @@ function Navbars() {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
+              id='btnSearch'
             />
             <Button variant="outline-success">Search</Button>
           </Form>

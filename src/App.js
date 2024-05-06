@@ -7,13 +7,16 @@ import MainRouter from './router/MainRouter';
 import '../src/Components/Css/main.css';
 import './Components/Config/firebase';
 import Authenticator from './Components/Auth/authenticator';
+import Calculator from './Components/PagesMain/Calculator';
 
 
 export default function App() {
   return (
-    <div >
+    <div  >
       {/* <Authenticator/> */}
       <MainRouter/>
+      {/* <Calculator/> */}
     </div>
   )
 }
+  
