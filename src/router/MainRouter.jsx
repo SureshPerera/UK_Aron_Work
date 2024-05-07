@@ -48,7 +48,7 @@ const MainRouter = () => {
         <div style={{}}> 
           <a href='' >Facebook</a> <bn/> <bn/>
           <a href=''>Gmail</a> <bn/>
-          <a href=''>Whatsapp</a> <bn/>
+          <a href='https://wa.me/+94741021167 '>Whatsapp</a> <bn/>
         </div>
         </div>
         

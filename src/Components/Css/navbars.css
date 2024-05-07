@@ -37,6 +37,14 @@ Nav{
     padding-bottom: 10px; 
    
 }
+.navbarBrand:hover{
+    background: brown;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
 /* .nav{
     -webkit-animation-duration: 550ms;
     animation-duration: 550ms;
@@ -70,4 +78,6 @@ Nav{
     transform: translateX(-50%);
     display: flex;
 }
-
+.hoverN:hover{
+    background: #600;
+}
